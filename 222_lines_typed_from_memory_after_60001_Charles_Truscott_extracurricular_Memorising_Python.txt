@@ -1,0 +1,225 @@
+declarative vs imperative knowledge
+declarative -> refers to statements of fact
+imperative -> refers to procedural methods of solving using statements of fact
+
+int, float, string, set, tuple, list, dictionary, boolean, class, object, method, function, function invocation, combination of types, expression
+
++ - * / // % ** ( ) != == and, or, not > >= < <= & | ^ ~ << >> . * ** [ ] [:] [::] [ ][ ][ ]x : , =
+
+Addition, Subtraction, Multiplication, True Division, Floor Division, Remainder or Modulus, Exponentiation, Parentheses
+
+Inequality, Equality
+
+Logical AND, Logical OR, Logical NOT
+
+Greater-than, Greater-than or equal-to, Less-than, Less-than or equal-to
+
+Bitwise AND, OR, XOR, NOT
+
+Left Shift, Right Shift
+
+Dot, Unpacking, Packing
+
+Subscript, Subscript with single splice, Subscript with Double Splice, Arbitrary Length Subscript
+
+Colon, Comma, Equals / Assignment
+
+True, False, lambda x, y: x + y, yield, from x import y as z
+
+assert, global, nonlocal, pass, del
+
+break, continue, is, is not, in
+
+try, except Error, finally, else, Error as e, e.method
+
+def function(args):
+	body
+	return
+
+abstraction, decomposition
+
+def main():
+	body
+
+if __name__ == "__main__": main()
+
+
+for x in range(start, stop, step):
+
+for x in iterable: (e.g. tuple, list, set, string, dictionary, combined type)
+
+for a in x:
+	for b in y:
+
+for a in x:
+	for b in a:
+
+while(Boolean):
+	while(Boolean):
+
+def recursive_function(a, b):
+	base case 1:
+	base case 2:
+	base case x:
+	body
+	recursive_function(a - 1, b - 1)
+	return
+
+iteration, recursion
+
+if (Boolean):
+	if (Boolean):
+		if (Boolean):
+
+		elif (Boolean):
+		elif (Boolean):
+		else:
+
+	elif (Boolean):
+	elif (Boolean):
+	else:
+
+elif (Boolean):
+elif (Boolean):
+else:
+
+match (object):
+
+	case x:
+		body
+	case y:
+		body
+	case z:
+		body
+
+branching, control flow
+
+
+Algorithmic Complexity
+Standard Library
+Program Definition, Requirements Analysis, System Theory
+Approximation, Searching, Sorting
+Object Oriented Programming
+
+
+Algorithmic Complexity
+
+	- random access machine (sequential execution of steps one step at a time)
+
+	- step (an operation that takes a fixed amount of time)
+
+	- time constraint
+
+	- size of input arbitrarily large or small
+
+	- dominant algebraic term
+
+	- running time (conceptual / actual)
+
+		- worst case, best case, average case
+
+		- upper, lower bound
+
+	- counting operations, operators, loops, branches, conditionals, iterations, recursions
+
+	- operation / operator causing dominant term 
+
+	- O(n), asymptotic notation, Big O, n -> infinity
+
+	- theta(n), theta notation, n -> any value, n -> 0 or n -> infinity
+
+
+constant, linear, logarithmic, log linear, polynomial, exponential, graphs of algorithmic complexity over time, counting steps and dominant operations / non dominant operations
+
+
+
+string
+textwrap
+re
+difflib
+
+enum
+collections
+array
+heapq
+bisect
+queue
+struct
+weakref
+copy
+pprint
+
+functools
+itertools
+operator
+contextlib
+
+time
+datetime
+calendar
+
+decimal
+fractions
+random
+math
+statistics
+numpy
+pandas
+matplotlib
+
+os.path
+pathlib
+glob
+fnmatch
+linecache
+tempfile
+shutil
+filecmp
+mmap
+codecs
+io
+
+pickle
+shelve
+dbm
+sqlite3
+xml.etree.ElementTree
+csv
+
+zlib
+gzip
+bz2
+tarfile
+zipfile
+
+hmac
+hashlib
+
+subprocess
+signal
+threading
+multiprocessing
+asyncio
+concurrent.futures
+
+gettext
+locale
+
+site
+sys
+os
+resource
+platform
+gc
+sysconfig
+
+socket
+urllib3
+
+scipy
+sklearn
+tensorflow
+keras
+
+	
+	
